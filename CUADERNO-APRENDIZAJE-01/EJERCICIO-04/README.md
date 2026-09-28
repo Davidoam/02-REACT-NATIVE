@@ -1,17 +1,23 @@
 # Ejercicio 04 - Pantalla de acceso
 
 ## Qué he aprendido
-Construir visualmente un formulario sin trabajar todavía con estado ni validación.
+
+He aprendido a diseñar visualmente un formulario con `TextInput` y `Pressable`, y a ocultar una contraseña con `secureTextEntry`.
 
 ## Respuesta a la pregunta de comprensión
+
 ¿Por qué en este ejercicio no necesitamos todavía `useState`?
 
 Respuesta:
-TextInput representa una entrada de texto. Pressable representa una zona pulsable. En este cuaderno nos centramos en su diseño; todavía no gestionamos estado ni eventos.
+
+No necesitamos `useState` porque el objetivo es construir únicamente la interfaz visual. Todavía no necesitamos guardar los valores escritos, validar los datos ni reaccionar al envío del formulario.
 
 ## Qué he modificado
-He modificado el color del botón.
+
+- He cambiado el color del botón principal.
+- He añadido el texto de registro debajo del botón.
+- He destacado la palabra «Regístrate» con el mismo color del botón y un peso de fuente mayor.
 
 ## Resultado
-Explica brevemente cómo ha quedado la interfaz.
-Ha quedado una pantalla de inicio de sesión con campos de correo y contraseña, un botón azul para iniciar sesión y un enlace para registrarse.
+
+La interfaz presenta dos campos de acceso, un botón destacado y una llamada visual para registrarse, sin incorporar todavía lógica de estado o validación.

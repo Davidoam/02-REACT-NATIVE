@@ -13,7 +13,9 @@ export default function App() {
         <Text style={styles.buttonText}>INICIAR SESIÓN</Text>
       </Pressable>
 
-      <Text style={styles.register}>¿No tienes cuenta? Regístrate</Text>
+      <Text style={styles.register}>
+        ¿No tienes cuenta? <Text style={styles.registerLink}>Regístrate</Text>
+      </Text>
     </View>
   );
 }
@@ -55,5 +57,9 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 22,
     color: '#64748b',
+  },
+  registerLink: {
+    color: '#169248',
+    fontWeight: 'bold',
   },
 });
