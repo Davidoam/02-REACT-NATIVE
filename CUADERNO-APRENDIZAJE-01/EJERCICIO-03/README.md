@@ -1,17 +1,23 @@
 # Ejercicio 03 - Ficha de perfil
 
 ## Qué he aprendido
-Introducir imágenes y distribución horizontal con Flexbox.
+
+He aprendido a mostrar imágenes, crear un avatar circular y distribuir varios elementos horizontalmente con Flexbox.
 
 ## Respuesta a la pregunta de comprensión
-Si quieres que dos estadísticas aparezcan una al lado de otra, ¿en qué View aplicarías `flexDirection: 'row'` y por qué?
+
+Si quieres que dos estadísticas aparezcan una al lado de otra, ¿en qué `View` aplicarías `flexDirection: 'row'` y por qué?
 
 Respuesta:
-Image necesita un source y unas dimensiones. Para colocar elementos en horizontal utilizamos flexDirection: 'row'.
+
+Aplicaría `flexDirection: 'row'` al `View` que contiene todas las estadísticas. La dirección configurada en el contenedor determina cómo se distribuyen sus hijos, por lo que las estadísticas aparecerán una al lado de otra.
 
 ## Qué he modificado
-He modificado la imagen al igual que los text y sus estilos.
+
+- He personalizado el avatar, el nombre y la profesión.
+- He añadido una tercera estadística llamada «Publicaciones» con el valor 86.
+- He distribuido las tres estadísticas por todo el ancho disponible para que se mantengan en una sola fila.
 
 ## Resultado
-Explica brevemente cómo ha quedado la interfaz.
-Ha quedado con un avatar con height y weight, todo ha quedado con una distribución tipo Flexbox, además de que usamos row para poner varios text distintos en fila.
+
+La ficha muestra un perfil personalizado con avatar circular y tres estadísticas distribuidas horizontalmente.

@@ -20,6 +20,10 @@ export default function App() {
             <Text style={styles.number}>1280</Text>
             <Text>Seguidores</Text>
           </View>
+          <View style={styles.stat}>
+            <Text style={styles.number}>86</Text>
+            <Text>Publicaciones</Text>
+          </View>
         </View>
       </View>
     </View>
@@ -55,10 +59,12 @@ const styles = StyleSheet.create({
   },
   stats: {
     flexDirection: 'row',
-    gap: 36,
+    justifyContent: 'space-between',
+    width: '100%',
     marginTop: 24,
   },
   stat: {
+    flex: 1,
     alignItems: 'center',
   },
   number: {
