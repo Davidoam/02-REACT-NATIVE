@@ -10,6 +10,16 @@ export default function App() {
           <Text style={styles.buttonText}>COMENZAR</Text>
         </View>
       </View>
+
+      <View style={[styles.card, styles.alternativeCard]}>
+        <Text style={[styles.title, styles.alternativeTitle]}>¡Sigue aprendiendo!</Text>
+        <Text style={[styles.subtitle, styles.alternativeSubtitle]}>
+          Practica cada concepto construyendo nuevas interfaces
+        </Text>
+        <View style={[styles.button, styles.alternativeButton]}>
+          <Text style={styles.buttonText}>CONTINUAR</Text>
+        </View>
+      </View>
     </View>
   );
 }
@@ -19,7 +29,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     padding: 24,
-    backgroundColor: '#355376',
+    backgroundColor: '#eef2f7',
+    gap: 18,
   },
   card: {
     backgroundColor: 'white',
@@ -48,5 +59,17 @@ const styles = StyleSheet.create({
     color: 'white',
     textAlign: 'center',
     fontWeight: 'bold',
+  },
+  alternativeCard: {
+    backgroundColor: '#1e293b',
+  },
+  alternativeTitle: {
+    color: '#f8fafc',
+  },
+  alternativeSubtitle: {
+    color: '#cbd5e1',
+  },
+  alternativeButton: {
+    backgroundColor: '#f97316',
   },
 });
