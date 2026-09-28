@@ -8,6 +8,7 @@ export default function App() {
 
         <View style={styles.content}>
           <Text style={styles.category}>INSTRUMENTO</Text>
+          <Text style={styles.offer}>OFERTA</Text>
           <Text style={styles.title}>Epiphone Les Paul</Text>
           <Text style={styles.rating}>⭐ 4.3</Text>
 
@@ -46,6 +47,17 @@ const styles = StyleSheet.create({
     color: '#2563eb',
     fontWeight: 'bold',
     fontSize: 12,
+  },
+  offer: {
+    alignSelf: 'flex-start',
+    marginTop: 10,
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    borderRadius: 999,
+    backgroundColor: '#fee2e2',
+    color: '#b91c1c',
+    fontSize: 12,
+    fontWeight: 'bold',
   },
   title: {
     marginTop: 6,
